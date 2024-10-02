@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, li{
+    list-style: none;
+}
+
+
+header{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu h2{
+    font-size: 35px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
+}
+
+.container{
+    width: 100%;
+}
+
+
+
+.trailers h3{
+    font-size: 30px;
+    margin-top: 2vh;
+}
+
+.breeshma img{
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 1vh;
+    gap: 3px;
+}
+
+.panther img{
+    width: 250px;
+    border-radius: 10px;
+    gap: 3px;
+}
+
+
+.bloco img{
+    width: 50vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
