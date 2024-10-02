@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #181824;
 }
 
 a{
@@ -22,23 +23,21 @@ header{
 
 .menu h2{
     font-size: 35px;
+    color: white;
 }
 
 .menu ul{
     display: flex;
     gap: 32px;
     font-size: 32px;
+    color: white;
 }
-
-.container{
-    width: 100%;
-}
-
 
 
 .trailers h3{
     font-size: 30px;
     margin-top: 2vh;
+    color: white;
 }
 
 .breeshma img{
@@ -57,8 +56,21 @@ header{
 
 .bloco img{
     width: 50vw;
+    border-radius: 10px;
 }
 
+.watch img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.movies img{
+    width: 250px;
+    border-radius: 10px;
+
+}
 
 
 
