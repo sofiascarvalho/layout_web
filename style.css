@@ -12,26 +12,31 @@ body {
 
 .container {
     display: flex;
+    flex-direction: column;
     height: 100vh;
 }
 
 .sidebar {
-    width: 250px;
+    width: 100%;
     background-color: #181824;
     padding: 20px;
 }
 
 .sidebar h2 {
     color: #ff652f;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    display: inline-block;
 }
 
 .sidebar ul {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sidebar ul li {
-    margin-bottom: 20px;
+    margin-right: 30px;
 }
 
 .sidebar ul li a {
@@ -40,10 +45,40 @@ body {
     font-size: 18px;
 }
 
+.new-trailers{
+    margin-top: 10vh;
+}
+
+.trailer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.trailer-card{
+    padding: 10px;
+    border-radius: 10px;
+    text-align: start;
+}
+
+.trailer-card img{
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.trailer-card p{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.trailer-card span{
+    color: #4d4d4d;
+    font-size: 14px;
+}
+
 main {
     flex-grow: 1;
     padding: 20px;
-    overflow-y: auto;
 }
 
 h3 {
@@ -51,7 +86,28 @@ h3 {
     margin-bottom: 10px;
 }
 
-.new-trailers, .continue-watching, .popular-movies {
+.continue-watching, .popular-movies{
+    margin-bottom: 40px;
+}
+
+.movie-list{
+    display: flex;
+    gap: 20px;
+}
+
+.movie-card{
+    padding: 10px;
+    border-radius: 10px;
+    width: 30vw;
+    text-align: start;
+}
+
+.movie-card img{
+    width: 70%;
+    border-radius: 10px;
+}
+
+/*.new-trailers, .continue-watching, .popular-movies {
     margin-bottom: 40px;
 }
 
@@ -60,16 +116,17 @@ h3 {
     gap: 20px;
 }
 
+
+
 .trailer-card, .movie-card {
-    background-color: #252537;
     padding: 10px;
     border-radius: 10px;
-    width: 200px;
-    text-align: center;
+    width: 30vw;
+    text-align: start;
 }
 
 .trailer-card img, .movie-card img {
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -80,6 +137,6 @@ h3 {
 }
 
 .trailer-card span, .movie-card span {
-    color: #b2b2b2;
+    color: #8a8a8a;
     font-size: 14px;
-}
+}*/
