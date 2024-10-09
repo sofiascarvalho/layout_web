@@ -8,31 +8,31 @@
 body {
     background-color: #1e1e2f;
     color: white;
+    height: 100vh;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 .sidebar {
     width: 100%;
     background-color: #181824;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebar h2 {
     color: #ff652f;
     margin-bottom: 20px;
-    display: inline-block;
 }
 
 .sidebar ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .sidebar ul li {
@@ -45,8 +45,16 @@ body {
     font-size: 18px;
 }
 
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
 .new-trailers{
-    margin-top: 10vh;
+    flex-basis: 30%;
+    margin-right: 20px;
 }
 
 .trailer-list{
@@ -62,7 +70,7 @@ body {
 }
 
 .trailer-card img{
-    width: 15vw;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -76,15 +84,18 @@ body {
     font-size: 14px;
 }
 
-main {
-    flex-grow: 1;
-    padding: 20px;
-}
-
 h3 {
     color: #ff652f;
     margin-bottom: 10px;
 }
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+
 
 .continue-watching, .popular-movies{
     margin-bottom: 40px;
@@ -103,40 +114,17 @@ h3 {
 }
 
 .movie-card img{
-    width: 70%;
-    border-radius: 10px;
-}
-
-/*.new-trailers, .continue-watching, .popular-movies {
-    margin-bottom: 40px;
-}
-
-.trailer-list, .movie-list {
-    display: flex;
-    gap: 20px;
-}
-
-
-
-.trailer-card, .movie-card {
-    padding: 10px;
-    border-radius: 10px;
-    width: 30vw;
-    text-align: start;
-}
-
-.trailer-card img, .movie-card img {
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
-.trailer-card p, .movie-card p {
+.movie-card p{
     font-size: 16px;
     margin-bottom: 5px;
 }
 
-.trailer-card span, .movie-card span {
-    color: #8a8a8a;
+.movie-card span{
+    color: #4d4d4d;
     font-size: 14px;
-}*/
+}
