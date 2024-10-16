@@ -136,3 +136,78 @@ h3 {
     font-size: 14px;
 }
 
+favourite-genres {
+    background-color: #181824;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}
+
+.favourite-genres h3 .favourite-genres h2 {
+    color: #ff652f;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.genre-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.genre-list .action { 
+    background-color: #ff652f; 
+    text-align: center;
+}
+.genre-list .western { 
+    background-color: #7f8fa6; 
+}
+.genre-list  .adventure { 
+    background-color: #e84118; 
+}
+.genre-list  .drama { 
+    background-color: #4cd137; 
+}
+.genre-list .sci-fi { 
+    background-color: #00a8ff; 
+}
+.genre-list  .comedy { 
+    background-color: #fbc531; 
+}
+.genre-list  .crime { 
+    background-color: #8c7ae6; 
+}
+.genre-list  .thriller { 
+    background-color: #9c88ff; 
+}
+
+
+
+
+@media (max-width: 960px) {
+    body{
+        padding-inline: 30px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    }
+
+    main {
+        justify-content: space-between;
+    }
+
+    .movie-list {
+        flex-direction: column;
+    }
+    .watch-now{
+        display: none;
+    }
+}
